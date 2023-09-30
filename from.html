@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+
+<head>
+    <title>ABOUT FOF HTML</title>
+    <style>
+        form {
+            padding: 10px;
+            width: 300px;
+            min-width: 400px;
+            margin: auto;
+        }
+
+        h1 {
+            text-align: center;
+            border: 2px dotted;
+            border-color: black;
+            padding: 4px;
+
+        }
+
+        #sing {
+            border: 1px dotted black;
+            width: 10%;
+            padding: 6px;
+            margin:auto;
+            color:blue;
+            font-size: 16pt;
+        }
+        #login{
+            width: 50%;
+            min-width: 400px;
+            margin: auto;
+
+            
+        }
+        .information{
+            width: 50%;
+            min-width: 400px;
+            margin:auto;
+            text-emphasis-color: tomato;
+        }
+        body{
+            background-image: url(sapla.jpg);
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Welcome to visit our webside</h1>
+    <p id="sing">plese sing in :</p>
+    <fieldset id="login">
+        <legend>Login</legend>
+    <form action="https://www.facebook.com/">
+        <p>Username:</p>
+        <input type="text" placeholder="Enter Your username:">
+        <P>Email:</P>
+        <input type="email" placeholder="Enter Your Email:">
+        <p>Password:</p>
+        <input type="password" placeholder="Enter Your password:"><br>
+        </form>
+    </fieldset><br><br>
+    <fieldset class="information">
+        <legend>Information</legend>
+    <form>
+        <p>Gender</p>
+        <input type="radio" name="Gender" value="male">male
+        <input type="radio" name="Gender" value="female">Female
+        <input type="radio" name="Gender" value="other">Other<br>
+        <p>Education</p>
+        <select name="education">
+            <option valu="msc">M.Sc</option>
+            <option valu="bsc">B.Sc</option>
+            <option valu="hsc">H.S.C</option>
+            <option valu="ssc">S.S.C</option>
+
+        </select><br><br>
+        <p>Hobby</p>
+        <input type="checkbox" name="hobby" value="reading">reading
+        <input type="checkbox" name="hobby" value="play">Play
+        <input type="checkbox" name="hobby" value="music">Music
+        <input type="checkbox" name="hobby" value="trable">Travle
+        <br>
+        <br>
+        <textarea></textarea>
+        <br>
+        <p>Select language:</p>
+        <input list="list1">
+        <datalist id="list1">
+            <option value="java"></option>
+            <option value="javascript"></option>
+            <option value="python"></option>
+            <option value="php"></option>
+            <option value="swift"></option>
+            <option value="ruby"></option>
+        <input type="submit">
+    </form>
+</fieldset>
+    <br>
+</body>
